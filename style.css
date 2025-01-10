@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgba(241, 241, 243, 1);
+}
+
 /* Navbar Style */
 
 nav {
@@ -75,4 +79,107 @@ nav h4 {
   background: #006a50;
   padding: 17px 34px;
   cursor: pointer;
+}
+
+/* Pillars of "Bangladesh 2.0" */
+
+.pillars-bangladesh {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 80px;
+}
+
+.pillars-bangladesh > h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.four-pillars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.pillars {
+  width: 302px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 24px;
+}
+
+.first > img {
+  margin-bottom: 24px;
+}
+
+.first > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.first > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.second > img {
+  margin-bottom: 24px;
+}
+
+.second > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.second > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.third > img {
+  margin-bottom: 24px;
+}
+
+.third > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.third > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.four > img {
+  margin-bottom: 24px;
+}
+
+.four > h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.four > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
