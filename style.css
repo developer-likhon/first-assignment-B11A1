@@ -39,6 +39,11 @@ nav h4 {
   cursor: pointer;
 }
 
+nav h4:hover {
+  background-color: #006a50;
+  color: #fff;
+}
+
 /* Banner Section Style */
 
 .banner {
@@ -79,6 +84,10 @@ nav h4 {
   background: #006a50;
   padding: 17px 34px;
   cursor: pointer;
+}
+
+.banner .banner-text button:hover {
+  background-color: #03926e;
 }
 
 /* Pillars of "Bangladesh 2.0" */
