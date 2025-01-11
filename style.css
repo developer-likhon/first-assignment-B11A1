@@ -520,7 +520,7 @@ nav h4:hover {
   margin-bottom: 32px;
 }
 
-.input > input {
+.input > form > input {
   width: 1032px;
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
@@ -528,7 +528,7 @@ nav h4:hover {
   padding: 20px 40px;
 }
 
-.input > input::placeholder {
+.input > form > input::placeholder {
   color: rgba(14, 14, 14, 0.3);
   font-family: "Fira Sans";
   font-size: 20px;
@@ -550,4 +550,79 @@ nav h4:hover {
   border: none;
   background: #006a50;
   padding: 17px 34px;
+}
+
+/* NEWS LETTER Section */
+
+.news-letter {
+  width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+}
+
+.news-letter h1 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.news-letter p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.news-letter h4 {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.news-letter form {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.news-letter form input {
+  width: 600px;
+  height: 55px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+}
+
+.news-letter form input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 18px 40px;
+}
+
+.news-letter form button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  padding: 17px 34px;
+  height: 55px;
 }
