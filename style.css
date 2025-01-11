@@ -261,6 +261,11 @@ nav h4:hover {
   border: none;
   border-radius: 8px;
   background: #5490f5;
+  cursor: pointer;
+}
+
+.visionOne > button:hover {
+  background-color: #3a6ebe;
 }
 
 .visionTwo {
@@ -299,6 +304,11 @@ nav h4:hover {
   background: #09a15c;
   position: absolute;
   bottom: 32px;
+  cursor: pointer;
+}
+
+.visionTwo > button:hover {
+  background-color: #007d48;
 }
 
 .visionThree {
@@ -336,6 +346,11 @@ nav h4:hover {
   background: #ffc239;
   position: absolute;
   bottom: 24px;
+  cursor: pointer;
+}
+
+.visionThree > button:hover {
+  background-color: #e0a800;
 }
 
 /* Quote Section */
@@ -361,6 +376,7 @@ nav h4:hover {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  text-align: justify;
 }
 
 .quote > h4 {
@@ -451,6 +467,11 @@ nav h4:hover {
   margin-top: 32px;
 }
 
+.newscard-info > button:hover {
+  background-color: #03926e;
+  cursor: pointer;
+}
+
 .newscard-two {
   display: flex;
   padding: 48px;
@@ -515,6 +536,11 @@ nav h4:hover {
   margin-bottom: 32px;
 }
 
+.taka > h2:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
 .input {
   display: flex;
   justify-content: center;
@@ -551,6 +577,11 @@ nav h4:hover {
   border: none;
   background: #006a50;
   padding: 17px 34px;
+}
+
+.input-btn > button:hover {
+  background-color: #03926e;
+  cursor: pointer;
 }
 
 /* NEWS LETTER Section */
@@ -601,9 +632,11 @@ nav h4:hover {
 .news-letter form input {
   width: 600px;
   height: 55px;
+  box-sizing: border-box;
   border: none;
   border-radius: 8px 0px 0px 8px;
   background: #fff;
+  padding: 18px 40px;
 }
 
 .news-letter form input::placeholder {
@@ -613,7 +646,6 @@ nav h4:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 18px 40px;
 }
 
 .news-letter form button {
@@ -626,6 +658,11 @@ nav h4:hover {
   background: #006a50;
   padding: 17px 34px;
   height: 55px;
+}
+
+.news-letter form button:hover {
+  background-color: #03926e;
+  cursor: pointer;
 }
 
 /* Footer Section */
