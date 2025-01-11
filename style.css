@@ -122,6 +122,11 @@ nav h4:hover {
   padding: 24px;
 }
 
+.pillars:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
 .first > img {
   margin-bottom: 24px;
 }
@@ -237,6 +242,10 @@ nav h4:hover {
   background: rgba(84, 144, 245, 0.2);
 }
 
+.visionOne:hover {
+  background-color: #a7c3f4;
+}
+
 .visionOne > h3 {
   color: rgba(14, 14, 14, 0.8);
   font-family: "Fira Sans";
@@ -265,7 +274,7 @@ nav h4:hover {
 }
 
 .visionOne > button:hover {
-  background-color: #3a6ebe;
+  background-color: #2d63b5;
 }
 
 .visionTwo {
@@ -274,6 +283,10 @@ nav h4:hover {
   border: 0px solid #5490f5;
   background: #c6e4d6;
   position: relative;
+}
+
+.visionTwo:hover {
+  background-color: #9bcab4;
 }
 
 .visionTwo > h3 {
@@ -308,7 +321,7 @@ nav h4:hover {
 }
 
 .visionTwo > button:hover {
-  background-color: #007d48;
+  background-color: #03673d;
 }
 
 .visionThree {
@@ -316,6 +329,10 @@ nav h4:hover {
   border-radius: 16px;
   background: #f7ebcf;
   position: relative;
+}
+
+.visionThree:hover {
+  background-color: #f0dcb3;
 }
 
 .visionThree > h3 {
