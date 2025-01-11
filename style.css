@@ -88,6 +88,7 @@ nav h4:hover {
 
 .banner .banner-text button:hover {
   background-color: #03926e;
+  border: none;
 }
 
 /* Pillars of "Bangladesh 2.0" */
@@ -625,4 +626,46 @@ nav h4:hover {
   background: #006a50;
   padding: 17px 34px;
   height: 55px;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 50px 160px;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.footer hr {
+  width: 1122px;
+  height: 1px;
+  border-color: rgba(14, 14, 14, 0.1);
+}
+
+.footer-head h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 23px;
+}
+
+.footer-links > img {
+  width: 24px;
+  height: 24px;
 }
