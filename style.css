@@ -410,24 +410,6 @@ nav h4:hover {
   background: #fff;
 }
 
-.newscard-two {
-  display: flex;
-  padding: 48px;
-  gap: 32px;
-  border-radius: 24px;
-  background: #fff;
-  margin-top: 24px;
-}
-
-.newscard-three {
-  display: flex;
-  padding: 48px;
-  gap: 32px;
-  border-radius: 24px;
-  background: #fff;
-  margin-top: 24px;
-}
-
 .newscard-img > img {
   border-radius: 24px;
 }
@@ -466,4 +448,106 @@ nav h4:hover {
   background: #006a50;
   padding: 13px 26px;
   margin-top: 32px;
+}
+
+.newscard-two {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  margin-top: 24px;
+}
+
+.newscard-three {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  margin-top: 24px;
+}
+
+/* Donate Today Section */
+
+.donate {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.donate > h1 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.donate > p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.taka {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.taka > h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 32px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.input > input {
+  width: 1032px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 20px 40px;
+}
+
+.input > input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.input-btn > button {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background: #006a50;
+  padding: 17px 34px;
 }
