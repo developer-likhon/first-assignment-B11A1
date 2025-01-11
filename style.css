@@ -336,3 +336,43 @@ nav h4:hover {
   position: absolute;
   bottom: 24px;
 }
+
+/* Quote Section */
+
+.quote {
+  width: 1280px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 48px 24px;
+  margin-bottom: 80px;
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  background-position-y: 25px;
+}
+
+.quote > p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.quote > h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.quote > h5 {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
+}
